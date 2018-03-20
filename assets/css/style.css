@@ -1,0 +1,36 @@
+.navbar-nav {
+  background-color: black;
+  width: 100%;
+  text-align: center; }
+  .navbar-nav li {
+    float: none;
+    display: inline-block; }
+
+.navbar-nav > li > a {
+  color: white; }
+
+.navbar-default {
+  background-color: black; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white; }
+
+.navbar-default .navbar-nav > li > a:visited {
+  color: white; }
+
+.navbar-collapse {
+  background-color: black; }
+
+.navbar-collapse:hover {
+  background-color: black; }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: black; }
+
+@media only screen and (max-width: 767px) {
+  .nav > li {
+    position: relative;
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */
