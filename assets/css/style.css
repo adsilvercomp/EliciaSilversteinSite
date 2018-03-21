@@ -28,15 +28,27 @@
 .navbar-default .navbar-toggle:focus {
   background-color: black; }
 
+#signature {
+  float: left;
+  margin-left: 37px;
+  height: 75px;
+  width: 150px; }
+
 @media only screen and (max-width: 767px) {
+  #signature {
+    display: none; }
+
   .nav > li {
+    text-align: center;
     position: relative;
     display: block; } }
+@media only screen and (min-width: 1000px) {
+  .navbar-nav li {
+    margin-right: 30px; } }
 body {
   background-color: black; }
 
 #home {
-  background-color: white;
   height: 600px;
   width: 700px;
   margin: auto auto;
@@ -48,5 +60,9 @@ body {
   #home {
     height: 600px;
     width: 400px; } }
+.credit {
+  margin-top: 20px;
+  color: white;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
