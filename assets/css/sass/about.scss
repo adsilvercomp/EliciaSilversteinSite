@@ -1,4 +1,7 @@
 
+$testBackground:red;
+
+
 $nav-background:black;
 $nav-font-color:white;
 
@@ -78,35 +81,45 @@ $nav-font-color:white;
     }
 
 
-    #home{
-      height:600px;
-      width:700px;
-      margin:auto auto;
-      object-fit: cover;
-      background-image:url("../img/sitePhotos/home.jpg");
-      background-size: cover;
-    }
-   
-    
+#bioPic{
+//  background-color: $testBackground;
+ height:600px;
+ width:400px;
+ background-image:url("../img/sitePhotos/bio.jpg");
+ background-size: cover;
+ margin:auto auto;
+ object-fit: cover;
+}
 
-    @media only screen and (max-width: 767px) {
-      #home{
-        height:600px;
-        width:400px;
-      }
-    }
+#bio{
+  padding-top:30px;
+  padding-bottom:30px;
+    padding-right:60px;
+    padding-left:60px;
+    background-color: $nav-font-color;
+    height:600px;
+    overflow: scroll;
+}
 
-    .credit{
-      margin-top:20px;
-      color:$nav-font-color;
-      text-align: center;
-    }
+@media only screen and (max-width: 1169px) {
+  #bioPic{
+   width:1000px;
+   width: 100%;
+  }
 
-    
-   
+  #bio{
+    margin-top:25px;
+    background-color:$nav-font-color;
+    width:100%;
+    padding-top:25px;
+  }
+  #about{
+    text-align:center;
+  }
+}
 
-     
-
-    
-
-               
+.credit{
+    margin-top:20px;
+    color:$nav-font-color;
+    text-align: center;
+  }

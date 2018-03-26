@@ -49,21 +49,39 @@
 body {
   background-color: black; }
 
-#home {
+#bioPic {
   height: 600px;
-  width: 700px;
+  width: 400px;
+  background-image: url("../img/sitePhotos/bio.jpg");
+  background-size: cover;
   margin: auto auto;
-  object-fit: cover;
-  background-image: url("../img/sitePhotos/home.jpg");
-  background-size: cover; }
+  object-fit: cover; }
 
-@media only screen and (max-width: 767px) {
-  #home {
-    height: 600px;
-    width: 400px; } }
+#bio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: white;
+  height: 600px;
+  overflow: scroll; }
+
+@media only screen and (max-width: 1169px) {
+  #bioPic {
+    width: 1000px;
+    width: 100%; }
+
+  #bio {
+    margin-top: 25px;
+    background-color: white;
+    width: 100%;
+    padding-top: 25px; }
+
+  #about {
+    text-align: center; } }
 .credit {
   margin-top: 20px;
   color: white;
   text-align: center; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=about.css.map */
