@@ -94,11 +94,16 @@ $nav-font-color:white;
 #bio{
   padding-top:30px;
   padding-bottom:30px;
-    padding-right:60px;
-    padding-left:60px;
+    padding-right:130px;
+    padding-left:130px;
     background-color: $nav-font-color;
     height:600px;
     overflow: scroll;
+    border-radius: 15px;
+}
+
+#about{
+  text-align: center;
 }
 
 @media only screen and (max-width: 1169px) {
@@ -115,6 +120,13 @@ $nav-font-color:white;
   }
   #about{
     text-align:center;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #bio{
+    padding-right: 70px;
+    padding-left:70px;
   }
 }
 

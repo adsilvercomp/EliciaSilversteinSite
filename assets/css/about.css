@@ -60,11 +60,15 @@ body {
 #bio {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 130px;
+  padding-left: 130px;
   background-color: white;
   height: 600px;
-  overflow: scroll; }
+  overflow: scroll;
+  border-radius: 15px; }
+
+#about {
+  text-align: center; }
 
 @media only screen and (max-width: 1169px) {
   #bioPic {
@@ -79,6 +83,10 @@ body {
 
   #about {
     text-align: center; } }
+@media only screen and (max-width: 575px) {
+  #bio {
+    padding-right: 70px;
+    padding-left: 70px; } }
 .credit {
   margin-top: 20px;
   color: white;
