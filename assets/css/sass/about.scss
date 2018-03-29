@@ -106,7 +106,54 @@ $nav-font-color:white;
   text-align: center;
 }
 
+
+#rubicon{
+  margin-top:8%;
+  height:65px;
+  width:150px;
+  box-shadow: 10px 10px 20px grey;
+  margin-right:5%;
+  margin-left:12%;
+  // opacity:.7;
+}
+
+#barokk{
+  margin-top:8%;
+  height:65px;
+  width:65px;
+  box-shadow: 10px 10px 20px grey;
+  margin-right:5%;
+  // opacity:.7;
+}
+
+#oae{
+  margin-top:8%;
+  height:65px;
+  width:150px;
+  box-shadow: 10px 10px 20px grey;
+  margin-right:5%;
+  // opacity:.7;
+  
+}
+
+#genus{
+  margin-top:8%;
+  height:120px;
+  width:65px;
+  box-shadow: 10px 10px 20px grey;
+  margin-right:5%;
+  // opacity:.7;
+}
+
+#backdrop{
+  background-color:$nav-font-color;
+}
+
+
 @media only screen and (max-width: 1169px) {
+
+ 
+
   #bioPic{
    width:1000px;
    width: 100%;
@@ -118,10 +165,70 @@ $nav-font-color:white;
     width:100%;
     padding-top:25px;
   }
+
   #about{
     text-align:center;
   }
 }
+
+@media only screen and (max-width: 1390px) {
+  #backdrop{
+    width:200px;
+    margin:auto auto;
+  }
+  #rubicon{
+    margin-top:15%;
+  }
+  #Genus{
+    margin-left:34%;
+  }
+  #oae{
+    margin-left:12%;
+  }
+  #barokk{
+    margin-left:34%;
+  }
+}
+
+@media only screen and (max-width: 1169px) {
+  #backdrop{
+    width:100%;
+  }
+  #rubicon{
+    margin-top:8%;
+    margin-left:17.5%;
+  }
+  #Genus{
+    margin-left:0%;
+  }
+  #oae{
+    margin-left:0%;
+  }
+  #barokk{
+    margin-left:0%;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  #backdrop{
+    width:200px;
+    margin:auto auto;
+  }
+  #rubicon{
+    margin-top:15%;
+    margin-left:11%;
+  }
+  #Genus{
+    margin-left:34%;
+  }
+  #oae{
+    margin-left:12%;
+  }
+  #barokk{
+    margin-left:34%;
+  }
+}
+
 
 @media only screen and (max-width: 575px) {
   #bio{
@@ -129,6 +236,8 @@ $nav-font-color:white;
     padding-left:70px;
   }
 }
+
+
 
 .credit{
     margin-top:20px;
