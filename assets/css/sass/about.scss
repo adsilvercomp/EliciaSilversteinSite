@@ -56,6 +56,8 @@ $nav-font-color:white;
  }
   
   @media only screen and (max-width: 767px) {
+
+
       #signature{
         display: none;
       }
@@ -76,90 +78,116 @@ $nav-font-color:white;
                   }
     }
 
-    body{
+
+
+    // ///////////////////////////////////////////////////
+    // this is the body
+
+body{
       background-color:$nav-background;
+      background-color:$nav-font-color;
     }
+
+.footer{
+  background-color:red;
+}    
+
+
+#bio-row{
+  height:1000px;
+}
 
 
 #bioPic{
 //  background-color: $testBackground;
- height:600px;
- width:400px;
- background-image:url("../img/sitePhotos/bio.jpg");
- background-size: cover;
- margin:auto auto;
- object-fit: cover;
+ height:120%;
+ width:40%;
+ background-image:url("../img/sitePhotos/contact.jpg");
+ background-size: 100%;
+ margin-top:30px;
+ margin-right:2%;
+margin-bottom:5px;
+background-repeat: no-repeat;
 }
 
 #bio{
+  margin:auto auto;
   padding-top:30px;
   padding-bottom:30px;
     padding-right:130px;
     padding-left:130px;
     background-color: $nav-font-color;
     height:600px;
-    overflow: scroll;
     border-radius: 15px;
+
 }
+
+
 
 #about{
   text-align: center;
 }
 
-
-#rubicon{
-  margin-top:8%;
-  height:65px;
-  width:150px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right:5%;
-  margin-left:12%;
-  // opacity:.7;
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $nav-background;
+  color: $nav-font-color;
+  text-align: center;
 }
 
-#barokk{
-  margin-top:8%;
-  height:65px;
-  width:65px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right:5%;
-  // opacity:.7;
+.icon{
+  height:20px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:-10px;
 }
 
-#oae{
-  margin-top:8%;
-  height:65px;
-  width:150px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right:5%;
-  // opacity:.7;
-  
+#footDivide{
+  width:200px;
+  margin-bottom:-4px;
 }
 
-#genus{
-  margin-top:8%;
-  height:120px;
-  width:65px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right:5%;
-  // opacity:.7;
+
+
+@media only screen and (max-width: 1390px) {
+ 
+  #backdrop{
+    width:200px;
+    margin:auto auto;
+  }
+
 }
 
-#backdrop{
-  background-color:$nav-font-color;
+
+@media only screen and (max-width: 1270px) {
+#bioPic{
+  margin-bottom:-30px;
+       }
 }
+
+@media only screen and (max-width: 1200px) {
+  #bioPic{
+    margin-bottom:-50px;
+  }
+}
+
+
 
 
 @media only screen and (max-width: 1169px) {
-
- 
-
-  #bioPic{
-   width:1000px;
+  #bioPic{ 
+    background-image:url("../img/sitePhotos/contact2.png");
    width: 100%;
+   margin-bottom:-5%;
+  }
+  #bio-row{
+    height:1500px;
   }
 
   #bio{
+    color:$nav-background;
     margin-top:25px;
     background-color:$nav-font-color;
     width:100%;
@@ -169,78 +197,103 @@ $nav-font-color:white;
   #about{
     text-align:center;
   }
-}
 
-@media only screen and (max-width: 1390px) {
-  #backdrop{
-    width:200px;
-    margin:auto auto;
-  }
-  #rubicon{
-    margin-top:15%;
-  }
-  #Genus{
-    margin-left:34%;
-  }
-  #oae{
-    margin-left:12%;
-  }
-  #barokk{
-    margin-left:34%;
-  }
-}
-
-@media only screen and (max-width: 1169px) {
   #backdrop{
     width:100%;
   }
-  #rubicon{
-    margin-top:8%;
-    margin-left:17.5%;
-  }
-  #Genus{
-    margin-left:0%;
-  }
-  #oae{
-    margin-left:0%;
-  }
-  #barokk{
-    margin-left:0%;
-}
 }
 
+
+
+
 @media only screen and (max-width: 1000px) {
+
+  .footer{
+    margin-top:1700px;
+  }
+  #bio-row{
+    height:0px;
+  }
+  
+    #bioPic{ 
+      background-image:url("../img/sitePhotos/contact.jpg");
+      margin-bottom:0px;
+  }
+
   #backdrop{
     width:200px;
     margin:auto auto;
   }
-  #rubicon{
-    margin-top:15%;
-    margin-left:11%;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer{
+    margin-top:1800px;
   }
-  #Genus{
-    margin-left:34%;
-  }
-  #oae{
-    margin-left:12%;
-  }
-  #barokk{
-    margin-left:34%;
+  #bio-row{
+    height:0px;
   }
 }
 
 
-@media only screen and (max-width: 575px) {
+
+
+
+@media only screen and (max-width: 767px) {
+  .footer{
+    margin-top:1900px;
+  }
+
+  #bioPic{
+    margin-bottom:-10px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+.footer{
+  margin-top:2300px;
+}
+
+  #bioPic{
+    margin-bottom: -2%;
+    
+    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer{
+    margin-top:2380px;
+  }
+  #bioPic{
+    margin-bottom: -2%;
+  
+  }
+
   #bio{
     padding-right: 70px;
     padding-left:70px;
   }
 }
 
-
-
-.credit{
-    margin-top:20px;
-    color:$nav-font-color;
-    text-align: center;
+@media only screen and (max-width: 500px) {
+  .footer{
+    margin-top:2500px;
   }
+  #bioPic{
+    margin-bottom: -20%;
+  
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  
+  #bioPic{
+    margin-bottom: -55%;
+  
+  }
+}
+
+
+
+

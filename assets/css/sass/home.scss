@@ -96,10 +96,32 @@ $nav-font-color:white;
       }
     }
 
-    .credit{
-      margin-top:20px;
-      color:$nav-font-color;
+    // .credit{
+    //   margin-top:20px;
+    //   color:$nav-font-color;
+    //   text-align: center;
+    // }
+
+
+    .footer {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: $nav-background;
+      color: $nav-font-color;
       text-align: center;
+    }
+    
+    .icon{
+      height:20px;
+      margin-right:10px;
+      margin-top:10px;
+      margin-bottom:-10px;
+    }
+    
+    #footDivide{
+      width:200px;
+      margin-bottom:-4px;
     }
 
     

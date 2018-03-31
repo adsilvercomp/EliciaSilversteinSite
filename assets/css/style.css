@@ -61,9 +61,22 @@ body {
   #home {
     height: 600px;
     width: 400px; } }
-.credit {
-  margin-top: 20px;
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
   color: white;
   text-align: center; }
+
+.icon {
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: -10px; }
+
+#footDivide {
+  width: 200px;
+  margin-bottom: -4px; }
 
 /*# sourceMappingURL=style.css.map */

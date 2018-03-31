@@ -47,130 +47,137 @@
   .navbar-nav li {
     margin-right: 30px; } }
 body {
-  background-color: black; }
+  background-color: black;
+  background-color: white; }
+
+.footer {
+  background-color: red; }
+
+#bio-row {
+  height: 1000px; }
 
 #bioPic {
-  height: 600px;
-  width: 400px;
-  background-image: url("../img/sitePhotos/bio.jpg");
-  background-size: cover;
-  margin: auto auto;
-  object-fit: cover; }
+  height: 120%;
+  width: 40%;
+  background-image: url("../img/sitePhotos/contact.jpg");
+  background-size: 100%;
+  margin-top: 30px;
+  margin-right: 2%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat; }
 
 #bio {
+  margin: auto auto;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 130px;
   padding-left: 130px;
   background-color: white;
   height: 600px;
-  overflow: scroll;
   border-radius: 15px; }
 
 #about {
   text-align: center; }
 
-#rubicon {
-  margin-top: 8%;
-  height: 65px;
-  width: 150px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right: 5%;
-  margin-left: 12%; }
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center; }
 
-#barokk {
-  margin-top: 8%;
-  height: 65px;
-  width: 65px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right: 5%; }
+.icon {
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: -10px; }
 
-#oae {
-  margin-top: 8%;
-  height: 65px;
-  width: 150px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right: 5%; }
+#footDivide {
+  width: 200px;
+  margin-bottom: -4px; }
 
-#genus {
-  margin-top: 8%;
-  height: 120px;
-  width: 65px;
-  box-shadow: 10px 10px 20px grey;
-  margin-right: 5%; }
-
-#backdrop {
-  background-color: white; }
-
+@media only screen and (max-width: 1390px) {
+  #backdrop {
+    width: 200px;
+    margin: auto auto; } }
+@media only screen and (max-width: 1270px) {
+  #bioPic {
+    margin-bottom: -30px; } }
+@media only screen and (max-width: 1200px) {
+  #bioPic {
+    margin-bottom: -50px; } }
 @media only screen and (max-width: 1169px) {
   #bioPic {
-    width: 1000px;
-    width: 100%; }
+    background-image: url("../img/sitePhotos/contact2.png");
+    width: 100%;
+    margin-bottom: -5%; }
+
+  #bio-row {
+    height: 1500px; }
 
   #bio {
+    color: black;
     margin-top: 25px;
     background-color: white;
     width: 100%;
     padding-top: 25px; }
 
   #about {
-    text-align: center; } }
-@media only screen and (max-width: 1390px) {
+    text-align: center; }
+
   #backdrop {
-    width: 200px;
-    margin: auto auto; }
-
-  #rubicon {
-    margin-top: 15%; }
-
-  #Genus {
-    margin-left: 34%; }
-
-  #oae {
-    margin-left: 12%; }
-
-  #barokk {
-    margin-left: 34%; } }
-@media only screen and (max-width: 1169px) {
-  #backdrop {
-    width: 100%; }
-
-  #rubicon {
-    margin-top: 8%;
-    margin-left: 17.5%; }
-
-  #Genus {
-    margin-left: 0%; }
-
-  #oae {
-    margin-left: 0%; }
-
-  #barokk {
-    margin-left: 0%; } }
+    width: 100%; } }
 @media only screen and (max-width: 1000px) {
+  .footer {
+    margin-top: 1700px; }
+
+  #bio-row {
+    height: 0px; }
+
+  #bioPic {
+    background-image: url("../img/sitePhotos/contact.jpg");
+    margin-bottom: 0px; }
+
   #backdrop {
     width: 200px;
-    margin: auto auto; }
+    margin: auto auto; } }
+@media only screen and (max-width: 900px) {
+  .footer {
+    margin-top: 1800px; }
 
-  #rubicon {
-    margin-top: 15%;
-    margin-left: 11%; }
+  #bio-row {
+    height: 0px; } }
+@media only screen and (max-width: 767px) {
+  .footer {
+    margin-top: 1900px; }
 
-  #Genus {
-    margin-left: 34%; }
+  #bioPic {
+    margin-bottom: -10px; } }
+@media only screen and (max-width: 720px) {
+  .footer {
+    margin-top: 2300px; }
 
-  #oae {
-    margin-left: 12%; }
+  #bioPic {
+    margin-bottom: -2%; } }
+@media only screen and (max-width: 600px) {
+  .footer {
+    margin-top: 2380px; }
 
-  #barokk {
-    margin-left: 34%; } }
-@media only screen and (max-width: 575px) {
+  #bioPic {
+    margin-bottom: -2%; }
+
   #bio {
     padding-right: 70px;
     padding-left: 70px; } }
-.credit {
-  margin-top: 20px;
-  color: white;
-  text-align: center; }
+@media only screen and (max-width: 500px) {
+  .footer {
+    margin-top: 2500px; }
+
+  #bioPic {
+    margin-bottom: -20%; } }
+@media only screen and (max-width: 440px) {
+  #bioPic {
+    margin-bottom: -55%; } }
 
 /*# sourceMappingURL=about.css.map */
