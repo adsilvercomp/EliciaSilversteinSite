@@ -1,0 +1,118 @@
+
+$testBackground:red;
+
+
+$nav-background:black;
+$nav-font-color:white;
+
+  
+  .navbar-nav{
+      background-color:$nav-background;
+      width: 100%;
+      text-align: center;
+                        
+                    li {
+                         margin-top:10px;
+                         float: none;
+                         display: inline-block;
+                       }
+                           
+                 }
+
+      .navbar-nav>li>a {
+      color:$nav-font-color;
+       }
+
+       .navbar-default{
+        background-color:$nav-background;
+       }
+
+       .navbar-default .navbar-nav>li>a:hover{
+         color:$nav-font-color;
+       }  
+
+       .navbar-default .navbar-nav>li>a:visited{
+        color:$nav-font-color;
+      } 
+    
+    .navbar-collapse{
+      background-color:$nav-background;
+    }
+
+    .navbar-collapse:hover{
+      background-color:$nav-background;
+    }
+
+      .navbar-default .navbar-toggle:hover, 
+      .navbar-default .navbar-toggle:focus{
+      background-color:$nav-background;
+  }
+
+ #signature{
+   float: left;
+   margin-left:37px;
+   height:75px;
+   width:150px;
+ }
+  
+  @media only screen and (max-width: 767px) {
+
+
+      #signature{
+        display: none;
+      }
+      .nav>li {
+        text-align: center;
+        position: relative;
+        display: block;
+      }
+    }
+    
+    @media only screen and (min-width: 1000px) 
+    {
+      .navbar-nav{
+                      li{
+                     margin-right:30px;
+
+                         }
+                  }
+    }
+
+/////////////////this is the body
+#gallery{
+   padding-right: 10%;
+   padding-left:10%;
+   margin-bottom:10%;
+}
+
+.galleryPic{
+  margin-top:3px;
+  margin-bottom:3%;
+  height:170px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $nav-background;
+  color: $nav-font-color;
+  text-align: center;
+}
+
+.footer-background{
+  background-color:black;
+}
+
+.icon{
+  height:20px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:-10px;
+}
+
+#footDivide{
+  width:200px;
+  margin-bottom:-4px;
+}
+
