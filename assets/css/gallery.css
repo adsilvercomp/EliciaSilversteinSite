@@ -54,7 +54,7 @@
 .galleryPic {
   margin-top: 3px;
   margin-bottom: 3%;
-  height: 170px; }
+  height: 200px; }
 
 .footer {
   left: 0;
@@ -76,5 +76,10 @@
 #footDivide {
   width: 200px;
   margin-bottom: -4px; }
+
+.MODALS {
+  width: 800px;
+  height: 600px;
+  margin: auto auto; }
 
 /*# sourceMappingURL=gallery.css.map */
