@@ -120,5 +120,18 @@ $nav-font-color:white;
    width:800px; 
    height:600px;
    margin:auto auto;
+   padding-top:5%;
+}
+
+.modal-container{
+  background-color:$nav-font-color;
+  width:900px;
+  height:700px;
+  margin:auto auto
+}
+
+.modal-text{
+  padding-top:2%;
+  text-align:center;
 }
 

@@ -80,6 +80,17 @@
 .MODALS {
   width: 800px;
   height: 600px;
+  margin: auto auto;
+  padding-top: 5%; }
+
+.modal-container {
+  background-color: white;
+  width: 900px;
+  height: 700px;
   margin: auto auto; }
+
+.modal-text {
+  padding-top: 2%;
+  text-align: center; }
 
 /*# sourceMappingURL=gallery.css.map */
