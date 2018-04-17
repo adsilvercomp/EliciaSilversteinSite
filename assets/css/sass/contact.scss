@@ -1,4 +1,3 @@
-
 $testBackground:red;
 
 
@@ -78,61 +77,63 @@ $nav-font-color:white;
                   }
     }
 
-/////////////////this is the body
-#gallery{
-   padding-right: 10%;
-   padding-left:10%;
-   margin-bottom:10%;
+
+
+#contact-container{
+    margin-top:-2%;
+    
 }
 
-.galleryPic{
-  margin-top:3px;
-  margin-bottom:3%;
-  height:200px;
+fieldset{
+    background-color:$nav-font-color;
+    border:$nav-font-color;
 }
 
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: $nav-background;
-  color: $nav-font-color;
-  text-align: center;
+.well{
+    background-color:$nav-font-color;
+    border-color:$nav-font-color;
+    margin-top:5%;
+    margin-bottom:13%;
 }
 
-.footer-background{
-  background-color:black;
+.well-sm{
+    border-color:none;
 }
 
-.icon{
-  height:20px;
-  margin-right:10px;
-  margin-top:10px;
-  margin-bottom:-10px;
+#button{
+    background-color:$nav-background;
+    color:$nav-font-color;
 }
 
-#footDivide{
-  width:200px;
-  margin-bottom:-4px;
-}
-
-.MODALS{
-   width:800px; 
-   height:600px;
-   margin:auto auto;
-   padding-top:5%;
-}
-
-.modal-container{
-  background-color:$nav-font-color;
-  width:900px;
-  height:700px;
-  margin:auto auto
-}
-
-.modal-text{
-  padding-top:2%;
-  text-align:center;
-}
+.pageTitle{
+    margin-top:5%;
+  }
 
 
+    //footer
+
+    .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: $nav-background;
+        color: $nav-font-color;
+        text-align: center;
+      }
+      
+      .footer-background{
+        background-color:black;
+      }
+      
+      .icon{
+        height:20px;
+        margin-right:10px;
+        margin-top:10px;
+        margin-bottom:-10px;
+      }
+      
+      #footDivide{
+        width:200px;
+        margin-bottom:-4px;
+      }
+      
