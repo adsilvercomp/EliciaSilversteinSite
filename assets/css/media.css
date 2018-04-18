@@ -60,10 +60,6 @@
   width: 800px;
   height: 500px; }
 
-@media only screen and (max-width: 800px) {
-  #Biber {
-    width: 400px;
-    height: 400px; } }
 #vidTitle {
   text-align: center;
   font-family: "Francois One", sans-serif; }
@@ -94,5 +90,13 @@
 #footDivide {
   width: 200px;
   margin-bottom: -4px; }
+
+@media only screen and (max-width: 800px) {
+  #Biber {
+    width: 400px;
+    height: 400px; }
+
+  .footer {
+    margin-top: 12%; } }
 
 /*# sourceMappingURL=media.css.map */

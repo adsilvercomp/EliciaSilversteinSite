@@ -102,13 +102,7 @@ $font2: 'Didact Gothic', sans-serif;
         height: 500px;
     }
 
-    @media only screen and (max-width: 800px) 
-    {
-     #Biber{   
-         width:400px;
-         height:400px;
-     }
-    }
+   
 
     #vidTitle{
         text-align: center;
@@ -148,5 +142,17 @@ $font2: 'Didact Gothic', sans-serif;
       #footDivide{
         width:200px;
         margin-bottom:-4px;
+      }
+
+
+      @media only screen and (max-width: 800px) 
+      {
+       #Biber{   
+           width:400px;
+           height:400px;
+       }
+       .footer{
+           margin-top:12%;
+       }
       }
       
