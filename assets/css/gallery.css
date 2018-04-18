@@ -1,4 +1,6 @@
 .navbar-nav {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 15px;
   background-color: black;
   width: 100%;
   text-align: center; }
@@ -47,8 +49,10 @@
   .navbar-nav li {
     margin-right: 30px; } }
 #gallery {
+  font-family: "Francois One", sans-serif;
   padding-right: 10%;
   padding-left: 10%;
+  margin-top: 4%;
   margin-bottom: 10%; }
 
 .galleryPic {
@@ -62,7 +66,8 @@
   width: 100%;
   background-color: black;
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif; }
 
 .footer-background {
   background-color: black; }
@@ -81,7 +86,8 @@
   width: 800px;
   height: 600px;
   margin: auto auto;
-  padding-top: 5%; }
+  padding-top: 5%;
+  font-family: "Didact Gothic", sans-serif; }
 
 .modal-container {
   background-color: white;

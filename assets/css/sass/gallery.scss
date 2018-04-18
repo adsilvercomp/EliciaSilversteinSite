@@ -4,9 +4,12 @@ $testBackground:red;
 
 $nav-background:black;
 $nav-font-color:white;
-
+$font1: 'Francois One', sans-serif;
+$font2: 'Didact Gothic', sans-serif;
   
   .navbar-nav{
+      font-family:$font2; 
+      font-size: 15px;
       background-color:$nav-background;
       width: 100%;
       text-align: center;
@@ -80,8 +83,10 @@ $nav-font-color:white;
 
 /////////////////this is the body
 #gallery{
+   font-family:$font1;
    padding-right: 10%;
    padding-left:10%;
+   margin-top:4%;
    margin-bottom:10%;
 }
 
@@ -98,6 +103,7 @@ $nav-font-color:white;
   background-color: $nav-background;
   color: $nav-font-color;
   text-align: center;
+  font-family:$font2;
 }
 
 .footer-background{
@@ -121,6 +127,7 @@ $nav-font-color:white;
    height:600px;
    margin:auto auto;
    padding-top:5%;
+   font-family:$font2;
 }
 
 .modal-container{

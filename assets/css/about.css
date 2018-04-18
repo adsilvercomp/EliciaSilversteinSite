@@ -1,4 +1,6 @@
 .navbar-nav {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 15px;
   background-color: black;
   width: 100%;
   text-align: center; }
@@ -74,10 +76,13 @@ body {
   padding-left: 130px;
   background-color: white;
   height: 600px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 14.5px; }
 
 #about {
-  text-align: center; }
+  text-align: center;
+  font-family: "Francois One", sans-serif; }
 
 .footer {
   left: 0;
@@ -85,7 +90,8 @@ body {
   width: 100%;
   background-color: black;
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif; }
 
 .icon {
   height: 20px;

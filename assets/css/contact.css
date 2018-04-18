@@ -1,4 +1,6 @@
 .navbar-nav {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 15px;
   background-color: black;
   width: 100%;
   text-align: center; }
@@ -47,7 +49,8 @@
   .navbar-nav li {
     margin-right: 30px; } }
 #contact-container {
-  margin-top: -2%; }
+  margin-top: -2%;
+  font-family: "Didact Gothic", sans-serif; }
 
 fieldset {
   background-color: white;
@@ -56,7 +59,7 @@ fieldset {
 .well {
   background-color: white;
   border-color: white;
-  margin-top: 5%;
+  margin-top: 6%;
   margin-bottom: 13%; }
 
 .well-sm {
@@ -67,9 +70,11 @@ fieldset {
   color: white; }
 
 .pageTitle {
-  margin-top: 5%; }
+  margin-top: 5%;
+  font-family: "Francois One", sans-serif; }
 
 .footer {
+  font-family: "Didact Gothic", sans-serif;
   left: 0;
   bottom: 0;
   width: 100%;

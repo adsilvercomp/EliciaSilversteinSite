@@ -1,4 +1,6 @@
 .navbar-nav {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 15px;
   background-color: black;
   width: 100%;
   text-align: center; }
@@ -67,7 +69,8 @@ body {
   width: 100%;
   background-color: black;
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif; }
 
 .icon {
   height: 20px;
@@ -79,4 +82,4 @@ body {
   width: 200px;
   margin-bottom: -4px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=home.css.map */

@@ -1,9 +1,12 @@
 
 $nav-background:black;
 $nav-font-color:white;
-
+$font1: 'Francois One', sans-serif;
+$font2: 'Didact Gothic', sans-serif;
   
   .navbar-nav{
+      font-family:$font2; 
+      font-size: 15px;
       background-color:$nav-background;
       width: 100%;
       text-align: center;
@@ -110,6 +113,7 @@ $nav-font-color:white;
       background-color: $nav-background;
       color: $nav-font-color;
       text-align: center;
+      font-family:$font2;
     }
     
     .icon{
