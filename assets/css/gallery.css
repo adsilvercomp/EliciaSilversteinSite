@@ -105,4 +105,29 @@
 .modal-very-thin {
   width: 400px; }
 
+@media only screen and (max-width: 850px) {
+  .MODALS {
+    width: 400px;
+    height: 300px;
+    margin: auto auto;
+    padding-top: 5%;
+    font-family: "Didact Gothic", sans-serif; }
+
+  .modal-container {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: auto auto; }
+
+  .modal-text {
+    padding-top: 2%;
+    text-align: center; }
+
+  .modal-thin {
+    width: 350px; }
+
+  .modal-very-thin {
+    width: 200px;
+    height: 400px; } }
+
 /*# sourceMappingURL=gallery.css.map */
